@@ -7,6 +7,12 @@
 - About Us Page
 - Contact Us Page
 
+# Today's Work - 1 Sep 2020
+1. Git Pull the code to Qasim's Local Computer to check / make changes
+2. Placement of Background image on a website
+3. How to design a button on a website
+4. Discuss the new design I have made on Figma
+
 
 # Home work for Sadaf
 1. Write "Git Pull" in your Git CMD.
