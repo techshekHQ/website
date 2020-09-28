@@ -2,14 +2,21 @@
 <html>
     <head>
         <title> Tickets </title>
-        <style type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">     
+<link href="https://fonts.googleapis.com/css2?family=Ledger&display=swap" rel="stylesheet">
+   <style type="text/css">
             body{
                 margin:0;
                 padding:0;
                 background-color: #004aad;
                 height:100vh;
+<<<<<<< HEAD
             box-sizing: border-box;
                 <href ="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,500&display=swap" rel="stylesheet">
+=======
+                box-sizing: border-box;
+                font-family: 'Didact Gothic', sans-serif;
+>>>>>>> 61714026b3d4109c2421728a14b933b6e15fe3b8
             }
             .container{
                 height:100vh;
@@ -21,7 +28,6 @@
                 
             }
             .tickets{
-                
                 box-sizing:border-box;
                 height:10%;
                 background-color: #004aad;
@@ -31,31 +37,39 @@
                 color:white;
                 font-weight:bold;
                 font-size:30px;
-                padding-top:20px;
+                padding-top: 50px;
                 }
             .ten{
                 background-color: #004aad;
-                
                 box-sizing: border-box;
                 height:10%;
                 color:white;
-                padding-top:14px;
+                padding-top: 29px;
                 margin-top:0px;
-                font-size: 20px;
-                font-family: sans-serif;
-            }
+                font-size: 30px;
+            	font-family: 'Ledger', serif;
+		}
             .chapter{
                 display:flex;
                 align-items: center;
                 justify-content: center;
+<<<<<<< HEAD
                 height:18%;
                 }
             .table{
                 width:600px;
                 
                 background-color: white;
+=======
+                height: 16%;
+                /* font-size: 38px; */
+                }
+            .table{
+                /* width:600px; */
+                /* height:70%; */
+                /* background-color: white; */
+>>>>>>> 61714026b3d4109c2421728a14b933b6e15fe3b8
                 box-sizing: border-box;
-                
             }
             .data{
                 display:flex;
@@ -63,9 +77,17 @@
                 justify-content: center;
             }
             .selection{
+<<<<<<< HEAD
                 height:30%;
                 padding:15px 15px;
                border:3px yellow solid;
+=======
+                height: 20%;
+                /* padding-top:53px; */
+                /* border: 10px solid white; */
+                width: 712px;
+                margin: auto;
+>>>>>>> 61714026b3d4109c2421728a14b933b6e15fe3b8
                 display: flex;
                 align-items: center;
                 box-sizing:border-box;
@@ -75,9 +97,11 @@
                 display:flex;
                 align-items: center;
                 justify-content: center;
+                height: 50%;
             }
             
             .child{
+<<<<<<< HEAD
                  border:1px yellow solid;
                 padding: 10px 10px;
                 width:100px;
@@ -86,37 +110,46 @@
                 flex-direction: column;
                 align-items: center;
                 color:white;
+=======
+                 /* border:1px yellow solid; */
+                 width:100px;
+                 height:100px;
+                 display:flex;
+                 flex-direction: column;
+                 align-items: center;
+                 color:white;
+>>>>>>> 61714026b3d4109c2421728a14b933b6e15fe3b8
             }
             .second{
-                 border:1px yellow solid;
-               
-                width:100px;
-                height:100px;
+                 /* border:1px yellow solid; */
+                 width:100px;
+                 height:100px;
                  display:flex;
-                flex-direction: column;
-                align-items: center;
-                color:white;
+                 flex-direction: column;
+                 align-items: center;
+                 color:white;
             }
             .third{
-                 border:1px yellow solid;
-               color:white;
-                width:100px;
-                height:100px;
+                 /* border:1px yellow solid; */
+                 color:white;
+                 width:100px;
+                 height:100px;
                  display:flex;
-                flex-direction: column;
-                align-items: center;
+                 flex-direction: column;
+                 align-items: center;
             }
             .fourth{
-                 border:1px yellow solid;
-               color:white;
-                width:100px;
-                height:100px;
+                 /* border:1px yellow solid; */
+                 color:white;
+                 width:100px;
+                 height:100px;
                  display:flex;
-                flex-direction: column;
-                align-items: center;
+                 flex-direction: column;
+                 align-items: center;
             }
             
             td{
+<<<<<<< HEAD
                font-size:120%;
                 font-weight:bold;
                 color:#004aad;
@@ -135,10 +168,46 @@
                 position:absolute;
                 z-index:-10;
                 
+=======
+               font-size: 21px;
+               font-weight:bold;
+               color: #004aad;
+               border: 1px blue solid;
+               align-items: center;
+               width: 65px;
+               background: white;
+               height: 65px;
+               justify-content: center;
+               border-radius: 7px;
+               text-align: center;
+>>>>>>> 61714026b3d4109c2421728a14b933b6e15fe3b8
             }
         
-        
-        
+       	.bottom_box {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #004aad;
+	z-index: 10;
+	/* padding: 0 10px; */
+	width: 59px;
+	} 
+	
+	hr {
+		border-color: #2f80ed;
+		width: 512px;
+		margin-top: -39px;
+		position: absolute;
+	}        
+
+	.bottom_box {
+		white-space: nowrap;
+	}
+	svg {
+		margin-top: 10px;
+	}
         </style>
     
     
@@ -149,7 +218,10 @@
         <div class="container">
         <div class="tickets"> Purchase Tickets</div>
         <div class="chapter"><h2 class="ten">Chapter 10: Building a Sustainable MVP</h2></div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 61714026b3d4109c2421728a14b933b6e15fe3b8
         <div class="numbers"><table class="table">
             <tr>
                 <td>1</td>
@@ -239,21 +311,27 @@
             
             </table></div>
             <div class="selection">
-                <div class="child"> Select your slot<svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<hr>
+        	<div class="bottom_box"><svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M15 0L16.875 3.75H14.0625L12.1875 0H10.3125L12.1875 3.75H9.375L7.5 0H5.625L7.5 3.75H4.6875L2.8125 0H1.875C0.84375 0 0.00937499 0.84375 0.00937499 1.875L0 13.125C0 14.1562 0.84375 15 1.875 15H16.875C17.9062 15 18.75 14.1562 18.75 13.125V0H15Z" fill="#F2F2F2"/>
 </svg>
+<p>Select  slot</p>
 </div>
-                <div class="second"> Make Payment<svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="bottom_box"><svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M16.875 0H1.875C0.834375 0 0.00937499 0.834375 0.00937499 1.875L0 13.125C0 14.1656 0.834375 15 1.875 15H16.875C17.9156 15 18.75 14.1656 18.75 13.125V1.875C18.75 0.834375 17.9156 0 16.875 0ZM16.875 13.125H1.875V7.5H16.875V13.125ZM16.875 3.75H1.875V1.875H16.875V3.75Z" fill="#2F80ED"/>
 </svg>
+<p>Make payment</p>
 </div>
-                <div class="third">Create password<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="bottom_box"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M7.5 7.5C9.57187 7.5 11.25 5.82188 11.25 3.75C11.25 1.67812 9.57187 0 7.5 0C5.42812 0 3.75 1.67812 3.75 3.75C3.75 5.82188 5.42812 7.5 7.5 7.5ZM7.5 9.375C4.99687 9.375 0 10.6313 0 13.125V15H15V13.125C15 10.6313 10.0031 9.375 7.5 9.375Z" fill="#2F80ED"/>
 </svg>
+<p>Create Password</p>
 </div>
-                <div class="fourth">Your ticket<svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="bottom_box"> <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+
 <path d="M16.875 7.5C16.875 6.46875 17.7188 5.625 18.75 5.625V1.875C18.75 0.84375 17.9063 0 16.875 0H1.875C0.84375 0 0.00937499 0.84375 0.00937499 1.875V5.625C1.04063 5.625 1.875 6.46875 1.875 7.5C1.875 8.53125 1.04063 9.375 0 9.375V13.125C0 14.1562 0.84375 15 1.875 15H16.875C17.9063 15 18.75 14.1562 18.75 13.125V9.375C17.7188 9.375 16.875 8.53125 16.875 7.5ZM12.7313 12L9.375 9.84375L6.01875 12L7.03125 8.1375L3.94688 5.61562L7.92188 5.38125L9.375 1.6875L10.8188 5.39062L14.7938 5.625L11.7094 8.14687L12.7313 12Z" fill="#2F80ED"/>
 </svg>
+<p>Your Ticket</p>
 </div>
                 <div class="line"><svg width="572" height="1" viewBox="0 0 572 1" fill="none" xmlns="http://www.w3.org/2000/svg">
 <line y1="0.5" x2="572" y2="0.5" stroke="#F2F2F2"/>
@@ -261,6 +339,7 @@
 </div>
                 
                 </div>
+<<<<<<< HEAD
 
         <div class="numbers">
 		<table class="table">
@@ -276,6 +355,8 @@
     
     
     
+=======
+>>>>>>> 61714026b3d4109c2421728a14b933b6e15fe3b8
     
     
     
