@@ -3,8 +3,7 @@
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Ledger&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        
         <style type="text/css">
             body{
                 padding:0;
@@ -14,51 +13,115 @@
                 font-family: 'Didact Gothic',;
             }
             .one{
-               /* border:4px green solid; */
-               width:50vw;
-               height:100vh;
-               box-sizing: border-box;
-               background-color: #004AAD;
-               padding-top: 25px;
-               padding-left: 71px;
+                width: 50vw;
+                height: 100vh;
+                box-sizing: border-box;
+                background: #004AAD;
+                padding-left: 12%;
+                padding-top:80px;
+                font-family: 'Ledger', serif;
+                position:fixed;
+                
             }
             .two{
                width:50vw;
                 height:100vh;
-                border:4px red solid;
+
                 box-sizing: border-box;
+                margin-left: 50vw;
                 
             }
             .star{
                 color:white;
                 font-size:35px;
                 font-weight:normal;
+                
                 /* padding-left:50px; */
                 /* padding-top:40px; */
                 }
-            button{
-                padding-left:50px;
-                border-radius: 6px;
-                align-items:center;
-                padding-left:10px;
-                margin-left:40px;
-            }
-            .input{
-                border-radius: 10px;
-                padding-left:40px;
+            
+            input {
+               padding: 7px 10px;
+                display: block;
+                margin-bottom: 10px;
+                border-radius: 7px;
+                border: 1px solid #F2F2F2;
                 background: transparent;
-                display:block;
-                width:340px;
+                color: #F2F2F2;
                 font-family: inherit;
-                margin-bottom:30px;
-                margin-left:70px;
-               
+                font-size: 14px;
+                width: 160px;
+                }
+            .eight{
+                width:100%;
+                display: block;
+                border-radius:9px;
+                margin-bottom:3px;
+            }
+            .nine{
+                width:100%;
+                display:block;
+                border-radius: 9px;
+                margin-bottom: 3px;
+            }
+            .three
+            { width:100%;
+              display:block;
+              border-radius:9px;
+               }
+            .four
+            {
+                width:100%;
+                display:block;
+                border-radius:9px;
+               margin-bottom:4px;
+            }
+            .click{
+                background-color: white;
+                padding:5px;
+                align-items: center;
+                border-radius:7px;
+                margin-left:0px;
+                padding-bottom:9px;
+                font-weight: normal;
+                font-size:15px;
+            }
+            
+            
+            button {
+                font-size:15px;
+                background-color: #004AAD;
+                COLOR:white;
+                border-radius:6px;
+                
+                padding:5px;
+                
+                margin-top:6px;
+                display:block;
                 
             }
-        
-        
-        
+           
+            .copy{
+                background-color:#F2F2F2;;
+                border:1px dashed #004AAD;
+                padding: 30px;
+                border-radius:10px;
+                margin:19px;
+                display:block;
+               
+            }
+            .paste{
+                background-color:#F2F2F2;;
+                border:1px dashed #004AAD;
+                padding: 30px;
+                border-radius:10px;
+                margin:19px;
+                display:block;
+            }
+            
+         
         </style>
+        
     
     </head>
     <body>
@@ -68,14 +131,25 @@
             <input type="text" placeholder="Name" value="Sadaf Ismail"><br>
             <input type="text" placeholder="Email" value="sadafmalik33@gmail.com"><br>
             <input type="text" placeholder="Save Password" value="numbers"><br>
-            <button> Save Changes </button>
+            <a class="click"> Save Changes </a>
         </div>
 
         <div class="two">
-            <p> Tickets bought . Join the room in 00:00:8 seconds</p>
-            <button> Event's Details </button>
+            <div class="copy">
+            <img class="three" src="image.png">
+            <img class="four"src="ticketback.png">
+            <button>Ticket bought. Your event is starting in 00:01 hours.</button>
+            <button>Show Event's Details. </button>
+            </div>
+            <div class="paste">
+            <img class="nine" src="image%204.png">
+            <img class="eight"src="image%202.png">
+            <button>Your event is starting in 45 minutes</button>
+            <button>Welcome to Techshek.</button>
+            
+            
+            </div>
         </div>
-    
-    </body>
+     </body>
 
 </html>
