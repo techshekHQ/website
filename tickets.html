@@ -16,24 +16,30 @@
             .container{
                 height:100vh;
                 box-sizing: border-box;
-                
                 margin:auto;
-                width:70%;
-              
-                
+                width: 1300px;
             }
+
+            nav {
+                width: 1300px;
+                margin: auto;
+                padding-left: 97px;
+                padding-top: 10px;
+            }
+
             .tickets{
-                box-sizing:border-box;
-                height:10%;
+                box-sizing: border-box;
+                height: 6%;
                 background-color: #004aad;
-                padding-left:50px;
+                padding-left: 50px;
                 justify-content: center;
                 align-items: center;
-                color:white;
-                font-weight:bold;
-                font-size:30px;
-                padding-top: 50px;
-                }
+                color: white;
+                font-weight: bold;
+                font-size: 30px;
+                padding-top: 42px;
+            }
+
             .ten{
                 background-color: #004aad;
                 box-sizing: border-box;
@@ -168,6 +174,44 @@
     
     </head>
     <body>
+        <nav>
+            <a href="/landingPage.html">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect opacity="0.05" x="44" width="44" height="44" rx="8" transform="rotate(90 44 0)" fill="white"/>
+                    <path d="M20 30V24H24V30H29V22H32L22 13L12 22H15V30H20Z" fill="#2F80ED"/>
+                </svg>
+            </a>
+
+            <a href="/profilePage.html">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect opacity="0.05" x="44" width="44" height="44" rx="8" transform="rotate(90 44 0)" fill="white"/>
+                    <path d="M19 21.75C18.31 21.75 17.75 22.31 17.75 23C17.75 23.69 18.31 24.25 19 24.25C19.69 24.25 20.25 23.69 20.25 23C20.25 22.31 19.69 21.75 19 21.75ZM25 21.75C24.31 21.75 23.75 22.31 23.75 23C23.75 23.69 24.31 24.25 25 24.25C25.69 24.25 26.25 23.69 26.25 23C26.25 22.31 25.69 21.75 25 21.75ZM22 12C16.48 12 12 16.48 12 22C12 27.52 16.48 32 22 32C27.52 32 32 27.52 32 22C32 16.48 27.52 12 22 12ZM22 30C17.59 30 14 26.41 14 22C14 21.71 14.02 21.42 14.05 21.14C16.41 20.09 18.28 18.16 19.26 15.77C21.07 18.33 24.05 20 27.42 20C28.2 20 28.95 19.91 29.67 19.74C29.88 20.45 30 21.21 30 22C30 26.41 26.41 30 22 30Z" fill="#2F80ED"/>
+                </svg>
+            </a>
+
+            <a href="/tickets.html">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect opacity="0.05" x="44" width="44" height="44" rx="8" transform="rotate(90 44 0)" fill="white"/>
+                    <path d="M32 20V16C32 14.89 31.1 14 30 14H14C12.9 14 12.01 14.89 12.01 16V20C13.11 20 14 20.9 14 22C14 23.1 13.11 24 12 24V28C12 29.1 12.9 30 14 30H30C31.1 30 32 29.1 32 28V24C30.9 24 30 23.1 30 22C30 20.9 30.9 20 32 20ZM23 27.5H21V25.5H23V27.5ZM23 23H21V21H23V23ZM23 18.5H21V16.5H23V18.5Z" fill="white"/>
+                </svg>
+            </a>
+
+            <a href="/eventsPage.html">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect opacity="0.05" x="44" width="44" height="44" rx="8" transform="rotate(90 44 0)" fill="white"/>
+                    <path d="M27.5 14.5C25.55 14.5 23.45 14.9 22 16C20.55 14.9 18.45 14.5 16.5 14.5C14.55 14.5 12.45 14.9 11 16V30.65C11 31.3 11.73 31.1 11.75 31.1C13.1 30.45 15.05 30 16.5 30C18.45 30 20.55 30.4 22 31.5C23.35 30.65 25.8 30 27.5 30C29.15 30 30.85 30.3 32.25 31.05C32.66 31.26 33 30.86 33 30.6V16C31.51 14.88 29.37 14.5 27.5 14.5ZM31 28.5C29.9 28.15 28.7 28 27.5 28C25.8 28 23.35 28.65 22 29.5V18C23.35 17.15 25.8 16.5 27.5 16.5C28.7 16.5 29.9 16.65 31 17V28.5Z" fill="#2F80ED"/>
+                </svg>
+            </a>
+
+            <a href="/logout.html">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect opacity="0.05" x="44" width="44" height="44" rx="8" transform="rotate(90 44 0)" fill="white"/>
+                    <path d="M20.09 25.59L21.5 27L26.5 22L21.5 17L20.09 18.41L22.67 21H13V23H22.67L20.09 25.59ZM29 13H15C13.89 13 13 13.9 13 15V19H15V15H29V29H15V25H13V29C13 30.1 13.89 31 15 31H29C30.1 31 31 30.1 31 29V15C31 13.9 30.1 13 29 13Z" fill="#2F80ED"/>
+                </svg>
+            </a>
+
+        </nav>
+        <!-- INSERT NAV BAR HERE -->
         <div class="container">
         <div class="tickets"> Purchase Tickets</div>
         <div class="chapter"><h2 class="ten">Chapter 10: Building a Sustainable MVP</h2></div>
